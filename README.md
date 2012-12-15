@@ -3,13 +3,15 @@ RAFlipReplaceSegue
 
 A simple way to alternate between UIViewControllers in a UINavigationController stack, via a storyboard-compatible custom segue. (Also compatible with view controllers outside a navigation controller stack)
 
+Based mostly on an example provided by [jrwren](http://jrwren.wrenfam.com/blog/2012/02/01/storyboard-custom-segue-for-custom-pushviewcontroller-animation/).
+
 ### Usage
 
 Usage in code is the same as for any other segue. To use with storyboards, 
 
  1. Drag a new view controller into the storyboard, if necessary.
  2. Control-drag to wire up a segue as usual.
- 3. In the inspector panel for the segue, choose `Custom` as the segue's type, and type `RAFlipReplaceSegue` as the segue's custom class. 
+ 3. In the inspector panel for the segue, choose `Custom` as the segue's style, and type `RAFlipReplaceSegue` as the segue's custom class. 
 
 Done! 
 
