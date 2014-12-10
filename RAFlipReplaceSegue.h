@@ -10,4 +10,6 @@
 
 @interface RAFlipReplaceSegue : UIStoryboardSegue
 
+@property (assign, nonatomic) UIViewAnimationOptions transitionStyle;
+
 @end
