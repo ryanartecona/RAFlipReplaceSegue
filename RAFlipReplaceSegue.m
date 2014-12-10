@@ -23,7 +23,7 @@
 	[UIView transitionFromView:sourceVC.view
 						toView:destVC.view
 					  duration:0.7
-					   options:UIViewAnimationOptionTransitionFlipFromLeft
+					   options:self.transitionStyle
 					completion:^(BOOL finished)
 					{
 						[destVC viewDidAppear:YES];
